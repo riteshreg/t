@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+*{
+  margin: 0;
+  padding: 0;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +39,75 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+/* my app css coding */
+
+/* Nav bar open */
+.navbarContainer{
+  display: flex;
+  background-color: #F55A5A;
+  justify-content: center;
+  color:white;
+  align-items: center;
+  font-size: large;
+}
+#logo_images{
+padding: 4px;
+}
+
+/* Nav bar closed */
+
+/* Main body css */
+
+
+.contentContainer{
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  margin: 3rem  5rem 1rem 5rem;
+  border-bottom: 2px solid #F5F5F5;
+}
+#placeImage{
+  border-radius: 4px;
+  height: 45vh;
+  width: 20vw;
+}
+
+.DetailedContainer{
+  margin: 1.2rem 3rem 4rem 3.5rem;
+}
+
+/* location css */
+
+.locationContainer{
+  display: flex;
+  align-items: center;
+}
+
+#location_img{
+  height: 2rem;
+}
+#location_link{
+  margin-left: 15px;
+  color: #918E9B;
+}
+/* location date end */
+
+/* date css start */
+
+.dateContainer{
+  margin-top: 2rem;
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  font-size: large;
+}
+
+/* date css end */
+
+/* detailed about location css */
+#detailedTxt{
+  margin-top: 1rem;
 }
